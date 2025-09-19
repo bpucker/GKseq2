@@ -3,22 +3,6 @@ This script allows to plot the coverage of _Arabidopsis thaliana_ re-sequencing 
 
 ## Usage
 
-python cov_plot.py
-					--in <FULL_PATH_TO_COVERAGE_FILE>
-					--out <FULL_PATH_TO_OUTPUT_FILE>
-					
-					--res <RESOLUTION, WINDOW_SIZE_FOR_COVERAGE_CALCULATION>[1000]
-					--sat <SATURATION, CUTOFF_FOR_MAX_COVERAGE_VALUE>[100]
-					--cov <AVERAGE_COVERAGE>
-					--name <NAME>
-					
-					--chr <CHROMOSOME>
-					--start <REGION_START_POSITION>
-					--end <REGION_END_POSITION>
-
-
-
-
 ```
 Usage:
   python3 cov_plot.py --in <FILE> --out <DIR>

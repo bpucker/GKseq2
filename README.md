@@ -40,7 +40,21 @@ Optional:
 				
 `--in` speciefies the coverage input file.
 
+`--out` speciefies the output folder. This will be created if it does not exist already.
 
+`--res` speciefies the resolution for the coverage plot i.e. number of base pairs to be summarized as one dot. Default: 1000.
+
+`--sat` speciefies a saturation for high coverage. Default: 100.
+
+`--cov` speciefies the average coverage.
+
+`--name` speciefies the name of the analyzed dataset.
+
+`--chr` speciefies the name of the sequence harboring the region of interest.
+
+`--start` speciefies the start of the region of interest.
+
+`--end` speciefies the end of the region of interest.
 
 
 ## Reference
